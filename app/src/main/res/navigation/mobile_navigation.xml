@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_inicio">
+
+    <fragment
+        android:id="@+id/nav_inicio"
+        android:name="cursoandroid.kotlin.com.app_consultoria.ui.inicio.InicioFragment"
+        android:label="@string/menu_inicio"
+        tools:layout="@layout/fragment_inicio" />
+    <fragment
+        android:id="@+id/nav_servico"
+        android:name="cursoandroid.kotlin.com.app_consultoria.ui.servicos.ServicosFragment"
+        android:label="@string/menu_servicos"
+        tools:layout="@layout/fragment_servicos" />
+    <fragment
+        android:id="@+id/nav_clientes"
+        android:name="cursoandroid.kotlin.com.app_consultoria.ui.clientes.ClientesFragment"
+        android:label="@string/menu_clientes"
+        tools:layout="@layout/fragment_clientes" />
+    <fragment
+        android:id="@+id/nav_contato"
+        android:name="cursoandroid.kotlin.com.app_consultoria.ui.contato.ContatoFragment"
+        android:label="@string/menu_contato"
+        tools:layout="@layout/fragment_contato" />
+    <fragment
+        android:id="@+id/nav_sobre"
+        android:name="cursoandroid.kotlin.com.app_consultoria.ui.sobre.SobreFragment"
+        android:label="@string/menu_sobre"
+        tools:layout="@layout/fragment_sobre" />
+
+</navigation>
